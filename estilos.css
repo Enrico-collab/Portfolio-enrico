@@ -1,0 +1,137 @@
+/* Importando minhas fonts, pegadas no google fonts */
+@import
+url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+
+/* Importando meu CDN, a estrutura do meu css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+
+/* Aplicando a todos os elementos, a remoção das bordas */
+*{
+margin: 0;
+padding:0;
+}
+
+
+/* Formatando meu header ( altura e largura) */
+header{
+width: 100%;
+height: 100vh;
+overflow: hidden; /*caso o elemento fique maior que a tela, não aparecerá aquela barrinha de rolagem*/
+position: relative;
+}
+
+
+/* Formatando meu "img-wrapper" (altura e largura) */
+.img-wrapper{
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0,0,0,0.8)
+}
+
+
+/* Formatando as imagens que vao estar dentro do meu "img-wrapper" (altura e largura) */
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*especifica como o elemento será colocado dentro do meu "img-wrapper"*/
+    opacity: 0.5;
+    animation: zoom 25s; 
+}
+
+
+/* Fazendo a animação de quando ao atualizar a pagina, minha imagem fique dando um zoom..*/
+/* Para fazer isso, eu preciso criar um "keyframe"*/
+@keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1); 
+    }
+}
+
+
+/* Formatando meu banner (h1, p e button)*/
+.banner{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+
+
+/* Formatando só o "h1"*/
+.banner h1{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-family:"Baloo Da 2", serif;
+    font-weight: 200;
+    text-shadow: .3rem .4rem 2px rgba(0,0,0, .4);
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: moveBanner 1s 0.5s forwards; 
+}
+
+
+
+/* Formatando o "p"*/
+.banner p{
+    font-family: "Josefin Slab", serif;
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: .2rem .2rem rgba(0,0,0, .4);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: moveBanner 1s 0.7s forwards; 
+}
+
+
+
+
+/* Formatando o "button"*/
+.banner button{
+    font-family: "Muli", serif;
+    color: #ffffff;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    background: #6a3093;  
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  
+    background: linear-gradient(to right, #a044ff, #6a3093); 
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+    animation: moveBanner 1s 0.9s forwards; 
+}
+
+
+
+
+/* Criando uma animação/evento pro meu "button*/
+.banner button:hover{
+    opacity: 0.8;
+    color: #000;
+}
+
+
+/* Fazendo a animação de quando ao atualizar a pagina, meu banner (h1,p e button) entre com uma leveza..*/
+/* Para fazer isso, eu preciso criar um "keyframe"*/
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+        opacity: 1; 
+    }
+}
+
+
+
+
+
