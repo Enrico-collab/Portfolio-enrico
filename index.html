@@ -24,8 +24,19 @@
 </head>
 
 <body>
-
+    
     <div class="container">
+        
+        <!-- Construindo meu menu lateral ( os 3 pontinhos do menu..) -->
+         <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span> <!-- Esse fechar eu criei para quando passar o mouse em cima do X (fechar) no 
+                                     menu 3 pontinhos, aparecer para o usuario que ali é pra fechar o menu. -->
+        </div>
+
+        <!-- Construindo minha imagem de fundo, os nomes e o botão -->
         <header>
             <!-- Colocando minha imagem dentro de um "wrap - Como se fosse um embrulho, onde a imagem vai ter que adaptar ao tamanho de embrulho" -->
             <div class="img-wrapper">
@@ -37,10 +48,37 @@
                 <p>Enrico Clemente Amoroso</p>
                 <button>Saiba Mais</button>
             </div>
+        </header>  
 
-        </header>
+    
+
+        <!-- Construindo o menu lateral -->
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+
+            <!-- Construindo os icones das redes sociais -->
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+         
+        </div>
     </div>
 
+
 </body>
+
+
+<!-- Importando meu arquivo JavaScript -->
+<script src="./script.js"></script>
 
 </html>
