@@ -491,6 +491,7 @@ background-color: rgba(0,0,0,0.8)
     font-size: 2rem;
     font-weight: 500;
     color: #eee;
+    line-height: 30px;
 
 }
 
@@ -500,6 +501,7 @@ background-color: rgba(0,0,0,0.8)
     font-weight: bolder;
     color: #ff4081;
     margin-bottom: 1.5rem;
+    line-height: 44px;
 }
 
 /* Formatando o paragrafo dentro do card*/
@@ -507,8 +509,8 @@ background-color: rgba(0,0,0,0.8)
     font-family: var(--font-secundary);
     font-weight: 400;
     color: #eee;
-    width: 80%;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
+    line-height: 19px; 
 }
 
 /* Deixando meu botao ja formatado para usa-lo mais à frente, sem precisar ter q formatar mais uma vez o bottom*/

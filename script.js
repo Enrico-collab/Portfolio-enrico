@@ -29,8 +29,6 @@ function atualizarPreco(){
     const prazo = document.querySelector("#prazo").value
 
 
-
-
     let  preco = qtde * 100;
     if (temJS) {
         preco = preco + (preco * 10/100) 
