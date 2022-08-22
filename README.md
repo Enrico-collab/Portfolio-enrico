@@ -8,6 +8,8 @@ O site portfolio foi criado com HTML, CSS e Javascript no Visual Studio Code. Na
 
 Link para visualização: https://portfolio-enrico.netlify.app/
 
+# Portfolio
+
 Hello,
 
 My name is Enrico Clemente Amoroso, I'm a front-end web developer, I'm 28 years old and I live in Brazil - SP. Technologist graduated in Systems Development Analysis in Dec-21, with knowledge in HTML5, CSS, SASS, Javascript, Java, WordPress and Git. I created this portfolio site to show you some of my projects and web developments.
