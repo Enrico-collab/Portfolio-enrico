@@ -4,7 +4,7 @@ Olá,
 
 Meu nome é Enrico Clemente Amoroso, sou desenvolvedor web front-end, tenho 28 anos e moro no Brasil - SP. Tecnólogo formado em Análise em Desenvolvimento de Sistemas em Dez-21, com conhecimento em HTML5, CSS, SASS, Javascript, Java, WordPress e Git. Criei esse site portfolio para mostrar à vocês alguns dos meus projetos e desenvolvimentos web.
 
-O site portfolio foi criado com HTML, CSS e Javascript no Visual Studio Code. Navegando pelo mesmo é possivel acessar todos os meus projetos como: um site Informativo (feito em HTML puro) e um site E-commerce (feito no WordPress), ambos responsivos, para um empresa do ramo industrial, Recriação da Página Inicial de log in do Instagram, um site não responsivo de Estudio Musical para Gravações, Clipes e Aulas, um site responsivo para uma Loja de Móveis, um site responsivo para uma Churrascaria e um site responsivo de Galeria de Artes de Rua. Ao final da página, já utilizando Javascript, criei um formulário de orçamento para os clientes solicitarem um orçamento.
+O site portfolio foi criado com HTML, CSS e Javascript no Visual Studio Code Navegando pelo mesmo é possivel acessar todos os meus projetos como: um site Informativo (feito em HTML puro) e um site E-commerce (feito no WordPress), ambos responsivos, para um empresa do ramo industrial, Recriação da Página Inicial de log in do Instagram, um site não responsivo de Estudio Musical para Gravações, Clipes e Aulas, um site responsivo para uma Loja de Móveis, um site responsivo para uma Churrascaria e um site responsivo de Galeria de Artes de Rua. Ao final da página, já utilizando Javascript, criei um formulário de orçamento para os clientes solicitarem um orçamento.
 
 Link para visualização: https://portfolio-enrico.netlify.app/
 
